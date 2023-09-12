@@ -1,0 +1,59 @@
+/* QUIENES SOMOS */
+#quienessomos {
+    padding-top: 5%;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .servicios-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px !important;
+    padding: 0 25px 0 25px;
+    height: 600px !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 15px 15px rgba(0, 0, 0, 0.75);
+    position: relative;
+  }
+  
+  .zoom {
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out; /* Duración de transición cuando se quita el mouse del contenedor */
+  }
+  
+  .zoom:hover {
+    transform: scale(1.02);
+    transition: transform 1s ease-in-out;
+  }
+  
+  .quienessomos-desc {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    width: 650px;
+    transform: translate(-50%, -50%);
+    font-weight: 500 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* .img-quienessomos{
+    border-radius: 0 0 10px 10px;
+  } */
+  
+  .container-img-quienes {
+    position: "center";
+    bottom: 0;
+    left: 0;
+    padding-top: 25px;
+  }
+  
+  /* quienes somos */
