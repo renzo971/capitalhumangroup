@@ -415,7 +415,6 @@ a {
   align-items: center;
   padding-top: 20px;
 }
-
 .slider {
 	background: white;
 	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
@@ -423,7 +422,7 @@ a {
 	margin: auto;
 	overflow: hidden;
 	position: relative;
-	width: 960px;
+	max-width: 100%; /* El slider ocupará todo el ancho disponible */
 }
 
 .slider::before,
@@ -452,6 +451,7 @@ a {
 .slider .slide-track {
 	animation: scroll 40s linear infinite;
 	display: flex;
+	/* Cambiamos el ancho a porcentaje para que se ajuste al tamaño de la pantalla */
 	width: calc(250px * 14);
 }
 

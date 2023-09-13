@@ -32,8 +32,7 @@ const infoData = [
 ];
 export function Coverage() {
     return (
-        <>
-            <div className="nuestros-valores">
+            <div className="nuestros-valores" id="cobertura">
                 <h4 className="titulo"><strong>Cobertura</strong></h4>
                 <div className="line-container-300">
                     <div className="line"></div>
@@ -49,7 +48,7 @@ export function Coverage() {
                     <Image src={acropolis} alt="expertos" className="d-block img-fluid" />
                     <ul>
                     {infoData.map((info, index) => (
-                        <li ><small>{info.title}</small></li>
+                        <li key={index}><small>{info.title}</small></li>
                     ))}
                     </ul>
 
@@ -57,7 +56,5 @@ export function Coverage() {
 
                 </div>
             </div>
-
-        </>
     )
 }

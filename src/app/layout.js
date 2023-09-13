@@ -6,6 +6,7 @@ import Script from 'next/script'
 import { Inter } from 'next/font/google'
 import { Navigation } from '@/components/navigation'
 import logo from '../app/favicon.ico'
+import { Footer } from '@/components/footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,7 +24,13 @@ export default function RootLayout({ children }) {
       </Head>
       <body className={inter.className}>
         <Navigation></Navigation>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         {children}
+        <Footer></Footer>
         <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></Script>
       </body>
     </html>
