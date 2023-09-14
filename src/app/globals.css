@@ -214,6 +214,13 @@ a {
   position: relative;
   margin-bottom: 20px;
 }
+.line-container-xx {
+  width: 120px;
+  height: 10px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+}
 
 .line-container-720::before {
   content: "";

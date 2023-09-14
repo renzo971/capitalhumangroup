@@ -16,7 +16,7 @@ export function Characteristics() {
           necesidades en Lima y Provincias y a nivel Internacional.
         </p>
         <p>Nuestro compromiso es:</p>
-        <div className="row aling-items-center">
+        <div className="row align-items-center">
           <div className="col-md-6">
             <ul className="list-group">
               <li className="list-group-item">

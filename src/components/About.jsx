@@ -6,7 +6,6 @@ import Howareyou from "../Assets/imagenes/About/Quienessomos.png";
 export function About() {
   return (
     <>
-      <div>
         <div
           id="carouselExampleInterval"
           className="carousel slide m-4 hover "
@@ -61,8 +60,8 @@ export function About() {
           <div className="card-body">
             <h5 className="card-title ">CAPITAL HUMAN GROUP S.A.C.</h5>
             <p className="card-text ">
-              Es una empresa que la conforman profesionales expertos en materia
-              Gestión de Resultados, Business Intelligence y Consultoría
+              Es una empresa que la conforman profesionales expertos en materia <br />
+              Gestión de Resultados, Business Intelligence <br />  y Consultoría
               Especializada en Gestión del Talento.
             </p>
             <Image
@@ -72,7 +71,6 @@ export function About() {
             />
           </div>
         </div>
-      </div>
     </>
   );
 }

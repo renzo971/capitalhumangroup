@@ -4,9 +4,9 @@ import vision from '../Assets/imagenes/MisionVision/retinal-biometrics-technolog
 export function MisionVision() {
     return (
         <>
-            <div className=" m-4 row">
-                <div className="col-sm-6 mb-3 mb-sm-0 nuestros-valores">
-                    <div className="card mb-3 hover" style={{ maxWidth: '540px' }}>
+            <div className=" row">
+                <div className="col-sm-6 mb-3 mb-sm-0">
+                    <div className="card mb-3 hover">
                         <div className="row g-0">
                             <div className="col-md-4">
                                 <Image src={mision} className="img-fluid rounded-start" alt="Mision" />
@@ -14,7 +14,7 @@ export function MisionVision() {
                             <div className="col-md-8">
                                 <div className="card-body">
                                     <h5 className="card-title">Visión</h5>
-                                    <div className="line-container-300">
+                                    <div className="line-container-xx">
                                         <div className="line"></div>
                                     </div>
                                     <p className="card-text">Ser Líderes en servicios e Innovación en Recursos Humanos.</p>
@@ -23,8 +23,8 @@ export function MisionVision() {
                         </div>
                     </div>
                 </div>
-                <div className="col-sm-6 nuestros-valores">
-                    <div className="card mb-3 hover" style={{ maxWidth: '540px' }}>
+                <div className="col-sm-6">
+                    <div className="card mb-3 hover" >
                         <div className="row g-0">
                             <div className="col-md-4">
                                 <Image src={vision} className="img-fluid rounded-start" alt="Vision" />
@@ -32,7 +32,7 @@ export function MisionVision() {
                             <div className="col-md-8">
                                 <div className="card-body">
                                     <h5 className="card-title">Misión</h5>
-                                    <div className="line-container-300">
+                                    <div className="line-container-xx">
                                         <div className="line"></div>
                                     </div>
                                     <p className="card-text">Dar soluciones efectivas, optimizando los recursos de nuestros clientes e incrementando sus ingresos.</p>

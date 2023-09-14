@@ -37,9 +37,10 @@ export function Coverage() {
                 <div className="line-container-300">
                     <div className="line"></div>
                 </div>
-                <h5 className="text-center"><strong>CAPITAL HUMAN GROUP S.A.C.</strong> tienen cobertura en las ciudades más importantes del Perú,
+                <h5 className="text-center"><strong>CAPITAL HUMAN GROUP S.A.C.</strong></h5> 
+                <p>tienen cobertura en las ciudades más importantes del Perú,
                     con
-                    una alianza estratégica a través de la organización Nueva Acrópolis Internacional.</h5>
+                    una alianza estratégica a través de la organización Nueva Acrópolis Internacional.</p>
                 <div className="row align-items-center">
                     <div className="col-7 bg-dark">
                         <Image src={mapa} alt="expertos" className="d-block img-fluid" />
