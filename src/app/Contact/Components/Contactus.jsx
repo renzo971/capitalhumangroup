@@ -2,6 +2,7 @@ export function Contactus() {
   return (
     <div className="col-md-6">
       <h1 className="text-center">Trabaja con Nosotros</h1>
+      <br />
       <div className="input-group mb-3">
         <span className="input-group-text" id="basic-addon1">
           Nombre y Apeliido
@@ -14,7 +15,7 @@ export function Contactus() {
           aria-describedby="basic-addon1"
         />
       </div>
-
+      <br />
       <div className="input-group mb-3">
         <input
           type="text"
@@ -30,7 +31,7 @@ export function Contactus() {
           aria-label="Server"
         />
       </div>
-
+      <br />
       <div className="input-group">
         <span className="input-group-text">Comentario o mensaje</span>
         <textarea className="form-control" aria-label="With textarea"></textarea>

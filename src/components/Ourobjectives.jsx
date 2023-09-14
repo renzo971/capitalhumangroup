@@ -38,7 +38,7 @@ export function Ourobjetives() {
                             <div className="card hover">
                                 <div className="card-body">
                                     <h5 className="card-title">Generar Valor.</h5>
-                                    <p className="card-text">Lograr que las Empresas trabajen con mayor orden y estén preparadas para un excelente crecimiento organizacional.</p>
+                                    <p className="card-text"><br />Lograr que las Empresas trabajen con mayor orden y estén preparadas para un excelente crecimiento organizacional.</p> <br />
                                     <Image src={objetivo3} alt="expertos" className="d-block img-fluid" width={450} height={333}/>
                                 </div>
                             </div>

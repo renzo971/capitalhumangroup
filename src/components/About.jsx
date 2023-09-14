@@ -12,21 +12,21 @@ export function About() {
           data-bs-ride="carousel"
         >
           <div className="carousel-inner">
-            <div className="carousel-item active" data-bs-interval="2000">
+            <div className="carousel-item active" data-bs-interval="1500">
               <Image
                 src={Expertos}
                 alt="expertos"
                 className="rounded-4 img-fluid"
               />
             </div>
-            <div className="carousel-item" data-bs-interval="2000">
+            <div className="carousel-item" data-bs-interval="1500">
               <Image
                 src={Seleccion}
                 alt="Seleccion"
                 className="rounded-4 img-fluid"
               />
             </div>
-            <div className="carousel-item" data-bs-interval="2000">
+            <div className="carousel-item" data-bs-interval="1500">
               <Image src={Trade} alt="Trade" className="rounded-4 img-fluid" />
             </div>
           </div>
@@ -55,19 +55,21 @@ export function About() {
             <span className="visually-hidden">Next</span>
           </button>
         </div>
-        <br />
-        <div className="card m-4 hover text-center" id="about">
-          <div className="card-body">
-            <h5 className="card-title ">CAPITAL HUMAN GROUP S.A.C.</h5>
-            <p className="card-text ">
-              Es una empresa que la conforman profesionales expertos en materia <br />
+        
+        <div className="row align-items-center m-3 border border-primary" id="about">
+          <div className="col-md-6">
+            <h1 className="text-center">CAPITAL HUMAN GROUP S.A.C.</h1>
+            <p className="text-center">
+            Es una empresa que la conforman profesionales expertos en materia <br />
               Gestión de Resultados, Business Intelligence <br />  y Consultoría
               Especializada en Gestión del Talento.
             </p>
+          </div>
+          <div className="col-md-6 hover">
             <Image
-              className="card-img-bottom rounded-4 img-fluid"
               src={Howareyou}
-              alt="QuienesSomos"
+              alt="Quienes somos"
+              className="rounded-4 img-fluid"
             />
           </div>
         </div>

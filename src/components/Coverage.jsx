@@ -38,15 +38,14 @@ export function Coverage() {
                     <div className="line"></div>
                 </div>
                 <h5 className="text-center"><strong>CAPITAL HUMAN GROUP S.A.C.</strong></h5> 
-                <p>tienen cobertura en las ciudades más importantes del Perú,
-                    con
-                    una alianza estratégica a través de la organización Nueva Acrópolis Internacional.</p>
+                <p className="text-center">Tienen cobertura en las ciudades más importantes del Perú,<br />
+                    con una alianza estratégica a través de la organización Nueva Acrópolis Internacional.</p>
                 <div className="row align-items-center">
-                    <div className="col-7 bg-dark">
-                        <Image src={mapa} alt="expertos" className="d-block img-fluid" />
+                    <div className="col-6 bg-secondary bg-gradient rounded-5">
+                        <Image src={mapa} alt="expertos" className="d-block img-fluid hover" width={450}/>
                     </div>
-                    <div className="col-5">
-                    <Image src={acropolis} alt="expertos" className="d-block img-fluid" />
+                    <div className="col-6">
+                    <Image src={acropolis} alt="expertos" className="d-block img-fluid hover" width={200} />
                     <ul>
                     {infoData.map((info, index) => (
                         <li key={index}><small>{info.title}</small></li>
